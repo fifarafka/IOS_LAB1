@@ -8,14 +8,6 @@
 
 import UIKit
 
-class SharedAlbums {
-    static let sharedInstance = SharedAlbums()
-    private init() {}
-    
-    var albums: NSMutableArray?
-}
-
-
 class ViewController: UIViewController {
     
     let plistCatPath = NSBundle.mainBundle().pathForResource("albums", ofType: "plist")
